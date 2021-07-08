@@ -17,7 +17,7 @@ void setup() {
 }
 
 #define SECOND ((uint16_t)1000)
-#define MINUTE (60 * SECOND)
+#define MINUTE (((uint16_t)60) * SECOND)
 #define DELAY_BETWEEN_PRESSES_IN_MINUTES 10
 #define PRESS_TIME 15
 
